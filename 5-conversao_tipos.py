@@ -28,4 +28,9 @@ print(100 / 2)
 # divisão retornando inteiro (utiliza-se duas barras de divisão: '//')
 print(100 // 2)
 
+idade = 51
+preco = 1000.57
+# concatenando
+texto = f"Idade {idade} preco {preco}"
+print(texto)
 

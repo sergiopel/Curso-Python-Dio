@@ -13,7 +13,7 @@ from string import octdigits
 nome = 'Sergio'
 idade = 50
 
-nome, idade = "Sophia", 14,
+nome, idade = "Sophia", 14
 
 print(nome, idade)
 
