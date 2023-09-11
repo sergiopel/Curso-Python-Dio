@@ -1,9 +1,10 @@
+# Função pode receber ARGUMENTOS
 def exibir_mensagem():
     print("Olá mundo!")
 
 
-def exibir_mensagem_2(nome):
-    print(f"Seja bem vindo {nome}!")
+def exibir_mensagem_2(nome_2):
+    print(f"Seja bem vindo {nome_2}!")
 
 
 def exibir_mensagem_3(nome="Anônimo"):
@@ -11,6 +12,8 @@ def exibir_mensagem_3(nome="Anônimo"):
 
 
 exibir_mensagem()
-exibir_mensagem_2(nome="Guilherme")
+# Quando chamamos a função, podemos passar PARÂMETROS. É opcional colocar o nome da variável que receberá, na função
+# mas se eu quisesse eu poderia colocar (nome_2="João")
+exibir_mensagem_2("João")
 exibir_mensagem_3()
-exibir_mensagem_3(nome="Chappie")
+exibir_mensagem_3(nome="Sergio")

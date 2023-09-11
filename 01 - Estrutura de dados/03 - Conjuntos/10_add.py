@@ -1,3 +1,6 @@
+# o método add acrescenta um elemento no final do conjunto, mas se
+# o elemento já existir, é ignorado e não é acrescentado
+
 sorteio = {1, 23}
 
 sorteio.add(25)  # {1, 23, 25}
